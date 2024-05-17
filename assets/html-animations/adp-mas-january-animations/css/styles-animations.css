@@ -313,7 +313,8 @@ a:active {
     width: 40%;
     float: left;
     height: auto;
-	margin-top: 10px;
+    padding-top: 10px;
+    padding-right: 10px;
   }
 
   .thirty_wrap{
@@ -321,7 +322,8 @@ a:active {
     width: 30%;
     float: left;
     height: auto;
-	margin-top: 10px;
+    padding-top: 10px;
+    padding-right: 10px;
   }
 
   .thirtysix_wrap{
@@ -329,7 +331,8 @@ a:active {
     width: 36%;
     float: left;
     height: auto;
-	margin-top: 10px;
+    padding-top: 10px;
+    padding-right: 10px;
   }
 
   .twenty_wrap{
@@ -337,7 +340,8 @@ a:active {
     width: 20%;
     float: left;
     height: auto;
-	margin-top: 10px;
+    padding-top: 10px;
+    padding-right: 10px;
   }
 
   .eighteen_wrap{
@@ -345,7 +349,8 @@ a:active {
     width: 18%;
     float: left;
     height: auto;
-	margin-top: 10px;
+    padding-top: 10px;
+    padding-right: 10px;
   }
 
   .quarter_wrap{
@@ -353,7 +358,8 @@ a:active {
     width: 25%;
     float: left;
     height: auto;
-	margin-top: 10px;
+    padding-top: 10px;
+    padding-right: 10px;
   }
 
   .third_wrap{
@@ -361,7 +367,8 @@ a:active {
     width: 33%;
     float: left;
     height: auto;
-	margin-top: 10px;
+    padding-top: 10px;
+    padding-right: 10px;
   }
 
   .half_wrap{
@@ -369,7 +376,8 @@ a:active {
     width: 50%;
     float: left;
     height: auto;
-	margin-top: 10px;
+    padding-top: 10px;
+    padding-right: 10px;
   }
 
 
@@ -378,7 +386,8 @@ a:active {
     float:left;
     height:30px;
     width:100%;
-    margin-top: 15px;
+    padding-top: 10px;
+    padding-right: 10px;
   }
 
 
