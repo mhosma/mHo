@@ -1,0 +1,481 @@
+html,body {
+	margin: 0px;
+	padding: 0px;
+	border: 0px;
+	font-family: myriad-pro,"Helvetica Neue",Helvetica,Arial,sans-serif;
+	background: #ffffff;
+}
+
+img,
+embed,
+object
+{
+	max-width: 100%;
+	margin:0;
+	vertical-align: top;
+
+}
+
+@-ms-viewport{
+	width: device-width;
+}
+
+
+a:link {
+  text-decoration: none;
+}
+
+a:visited {
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: underline;
+}
+
+a:active {
+  text-decoration: underline;
+}
+
+
+/*********
+        MAIN
+                ***************/
+
+.pagewrap a{
+	text-decoration: none;
+	border:0;
+}
+
+
+.pagewrap {
+	position:relative;
+	text-align: left;
+	height:auto;
+	margin:auto;
+	width:100%;
+	min-width: 320px;
+	tab-size:4;
+	-moz-tab-size: 4;
+	-o-tab-size:  4;
+	
+}
+
+.pagewrap img { border: 0 none; }
+
+.sticky {
+	position: fixed!important;
+	top: 0;
+  max-width: 1364px;
+  width: 100%;
+  background-color: white;
+  z-index: 999;
+}
+
+
+.contentwrap{
+	position:relative;
+	text-align:left;
+	height:auto;
+	margin:auto;
+	width:100%;
+	
+	max-width:1364px;
+	display:block;
+  background:white;
+}
+
+.headerwrap{
+    position:relative;
+	text-align:left;
+	width:auto;
+	overflow: hidden;
+	display:block;
+    background:white;
+    margin-top: 2%;
+}
+
+.headerwrap h1{
+    display: inline;
+    color: #121C4E;
+}
+
+.headerlogo img {
+    position: relative;
+    float: left;
+    width: 116px;
+    margin-right: 1%;
+}
+
+.headertitle{
+    position: relative;
+    float: left;
+
+}
+
+.headertitle h1 {
+    display: block;
+    font-size: 2em;
+    margin-block-start: 0.67em;
+    margin-block-end: 0px;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+    font-weight: normal;
+}
+
+.navwrap{
+    position: relative;
+    float: left;
+}
+
+.navbutton{
+    position: relative;
+    float: left;
+    height: auto; 
+    display: block;
+    margin-right: 30px;
+    padding-left: 10px;
+    padding-right: 10px;
+    
+}
+
+.subnavwrap{
+    position: relative;
+    float: left;
+    background-color: #F3F3F3;
+    width: 100%;
+    
+}
+
+
+.navbutton h3{
+    display: block;
+    font-size: 1.08em;
+    margin-block-start: 1em;
+    margin-block-end: 1em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+    font-weight: 300;
+    color: #212222;
+    
+}
+
+.navbutton h4{
+    display: block;
+    font-size: 1em;
+    margin-block-start: 1em;
+    margin-block-end: 1em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+    font-weight: 500;
+    color: #212222;
+    margin-left: 10px;
+    margin-right: 10px;
+    
+    
+}
+
+.activebutton{
+    border-bottom: 4px solid #121C4E !important;
+    z-index: 2;
+}
+
+.divider_line{
+    position: relative;
+    float: left;
+    width: 100%;
+    height: 2px;
+    background-color: lightgrey;
+    display: block;
+    margin-top: -3px;;
+    z-index: 1;
+  }
+
+
+.settitle{
+    position: relative;
+    float: left;
+    margin-top: 25px;
+    margin-left: 5px;
+    margin-bottom: 6px;
+    width: 100%;
+}
+
+.settitle h1 {
+    display: inline;
+    font-size: 1.5em;
+    margin-block-start: 0.67em;
+    margin-block-end: 0px;
+    margin-inline-start: 0px;
+    font-weight: 300;
+    color: #212222;
+}
+
+
+.largefont{
+    display: inline;
+    font-size: .8em;
+    margin-block-start: 0.67em;
+    margin-block-end: 0px;
+    margin-inline-start: 0px;
+    font-weight: 500;
+    color: #212222;
+}
+
+
+/*********
+        IFRAMES
+                ***************/
+
+  .banner300x250{
+    position: relative;
+    float: left;
+    display: inline;
+                }
+
+  .banner300x250 iframe{
+    position: relative;
+    float: left;
+    width: 300px !important;
+    height:250px !important;
+    border: none !important;
+  }
+  
+  .banner300x600{
+    position: relative;
+    float: left;
+    display: inline;
+  }
+
+  .banner300x600 iframe{
+    width: 300px !important;
+    height:600px !important;
+    border: none !important;
+  }
+
+  .banner970x250 iframe{
+    position: relative;
+    float: left;
+    width: 970px !important;
+    height:250px !important;
+    border: none !important;
+  }
+
+  .banner160x600{
+    position: relative;
+    float: left;
+    display: inline;
+  }
+
+
+  .banner160x600 iframe{
+    position: relative;
+    float: left;
+    width: 160px !important;
+    height:600px !important;
+    border: none !important;
+  }
+
+  .banner728x90 iframe{
+    position: relative;
+    float: left;
+    width: 728px !important;
+    height:90px !important;
+    border: none !important;
+  }
+
+  .banner320x50 iframe{
+    position: relative;
+    float: left;
+    width: 320px;
+    height:50px;
+    border: none !important;
+  }
+
+  .banner960x540 iframe{
+    position: relative;
+    float: left;
+    width: 960px !important;
+    height: 540px !important;
+    border: none !important;
+  }
+
+  .banner540x540 iframe{
+    position: relative;
+    float: left;
+    width: 540px !important;
+    height: 540px !important;
+    border: none !important;
+  }
+
+  .forty_wrap{
+    position: relative;
+    width: 40%;
+    float: left;
+    height: auto;
+	margin-top: 10px;
+  }
+
+  .thirty_wrap{
+    position: relative;
+    width: 30%;
+    float: left;
+    height: auto;
+	margin-top: 10px;
+  }
+
+  .thirtysix_wrap{
+    position: relative;
+    width: 36%;
+    float: left;
+    height: auto;
+	margin-top: 10px;
+  }
+
+  .twenty_wrap{
+    position: relative;
+    width: 20%;
+    float: left;
+    height: auto;
+	margin-top: 10px;
+  }
+
+  .eighteen_wrap{
+    position: relative;
+    width: 18%;
+    float: left;
+    height: auto;
+	margin-top: 10px;
+  }
+
+  .quarter_wrap{
+    position: relative;
+    width: 25%;
+    float: left;
+    height: auto;
+	margin-top: 10px;
+  }
+
+  .third_wrap{
+    position: relative;
+    width: 33%;
+    float: left;
+    height: auto;
+	margin-top: 10px;
+  }
+
+  .half_wrap{
+    position: relative;
+    width: 50%;
+    float: left;
+    height: auto;
+	margin-top: 10px;
+  }
+
+
+  .button_wrap{
+    position:relative;
+    float:left;
+    height:30px;
+    width:100%;
+    margin-top: 15px;
+  }
+
+
+  input.button-add {
+    background-image: url(Refresh.png); /* 16px x 16px */
+    background-color: transparent; /* make the button transparent */
+    background-repeat: no-repeat;  /* make the background image appear only once */
+    background-position: 0px 0px;  /* equivalent to 'top left' */
+    border: none;           /* assuming we don't want any borders */
+    cursor: pointer;        /* make the cursor like hovering over an <a> element */
+    height: 16px;           /* make this the size of your image */
+    padding-left: 16px;     /* make text start to the right of the image */
+    vertical-align: middle; /* align the text vertically centered */
+}
+
+.imagewrap{
+  position: relative;
+  float: left;
+  height: 30px;
+  width: 30px;
+  margin-left:10px;
+}
+
+.Navwrap{
+    position: relative;
+    float: left;
+    width: 100%;
+  }
+  
+  .NavTitle{
+    position: relative;
+    float: left;
+    width: 150px;
+  }
+  
+  .NavButton{
+    position: relative;
+    float: left;
+    width:100px;
+  
+  }
+
+.title{
+  position: relative;
+  float:left;
+
+}
+
+.button:focus {outline:0;}
+
+  
+
+
+.concept1_SetA{
+  position: relative;
+  float: left;
+  margin-top: 0px;
+  overflow: hidden;
+}
+
+.Concept1{
+  overflow: hidden!important;
+}
+
+
+
+
+
+.spacer{
+    position: relative;
+    float: left;
+    height: 100px;
+    width: 100%;
+  }
+
+  .half_spacer{
+    position: relative;
+    float: left;
+    height: 50px;
+    width: 100%;
+
+  }
+
+.banner_wrap{
+  position: relative;
+  display: block;
+  width: 100%;
+  float: left;
+  height: auto;
+  margin-top: 10px;
+}
+
+.facebook_wrap{
+  position: relative;
+  display: block;
+  width: 50%;
+  float: left;
+  height: auto;
+  margin-top: 10px;
+}
