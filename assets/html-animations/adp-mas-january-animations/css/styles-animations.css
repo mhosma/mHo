@@ -82,7 +82,9 @@ a:active {
 	
 	max-width:1364px;
 	display:block;
-  background:white;
+ 	background:white;
+	padding-left: 10px;
+	padding-right: 10px;
 }
 
 .headerwrap{
